@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=IXGraphite
+Version=v0.30
+Icon=/etc/IXGraphite/Logo.png
+X-Icon-Path=/etc/IXGraphite/Logo.png
+Exec=./etc/IXGraphite/ixgraphite
+Terminal=false
+Type=Application
