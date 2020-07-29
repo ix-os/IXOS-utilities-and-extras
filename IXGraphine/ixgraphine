@@ -1,0 +1,2 @@
+./dev/node_modules/.bin/electron . &
+python3 dev/web_app/run_app.py 
