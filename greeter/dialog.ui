@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>397</width>
+    <height>298</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="accept">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>260</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 white);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>Accept</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>260</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 white);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>379</width>
+      <height>239</height>
+     </rect>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>381</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="plainText">
+      <string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a eros consectetur, consectetur urna eget, vestibulum est. Cras pellentesque rhoncus volutpat. Duis eget felis ut neque malesuada accumsan vitae vitae augue. Nulla leo lorem, maximus sit amet leo et, vehicula posuere enim. Aliquam nec ultricies felis. Donec rhoncus eu diam ut auctor. Suspendisse potenti. Praesent nec nisi ac eros vehicula malesuada. Morbi sed odio lorem. Aliquam blandit, odio non suscipit aliquet, lacus elit tempor odio, id imperdiet enim massa vel massa. Nullam non risus sem. Morbi vitae magna sagittis, ultrices nibh eget, venenatis enim. Vivamus mi dui, tincidunt eu sapien sed, luctus interdum ex. Vestibulum at dapibus urna. Vestibulum eleifend lectus eros, ac eleifend diam semper ut.
+
+Quisque maximus magna non sapien pellentesque, quis ullamcorper lectus imperdiet. Phasellus efficitur risus vitae lacus luctus ultricies. Nam dictum tortor eu semper hendrerit. Vestibulum a volutpat libero. Pellentesque tempus aliquet efficitur. Proin sit amet odio vitae leo elementum elementum. Proin tempus fringilla augue, sed pharetra risus venenatis non. Curabitur lectus quam, hendrerit in eleifend sed, malesuada sit amet neque. Proin viverra risus leo. Etiam lobortis eget augue sit amet dictum.
+
+Nulla facilisi. Nunc volutpat ligula ligula, in consectetur sapien dignissim ut. Duis pharetra ligula diam, eget aliquam lacus sollicitudin a. Aenean eu velit blandit lacus luctus malesuada. Sed ultrices pharetra mi cursus finibus. Vestibulum vitae magna non enim tincidunt imperdiet. Etiam luctus vel libero et fermentum. Cras vitae volutpat mi. Ut accumsan tellus ac cursus laoreet. Ut euismod nibh elit, non elementum quam egestas sed. Morbi et lorem ac nibh rutrum congue ut eget libero. Nullam gravida elit vitae tellus cursus, et sodales diam tempus. Proin tellus sem, aliquam quis urna et, pellentesque consectetur dui. Praesent vestibulum congue lorem ut porta.
+
+Nunc elementum ac enim nec ullamcorper. Integer vitae volutpat nisi. In interdum sem vitae accumsan molestie. Nullam molestie accumsan massa, in convallis velit consequat eu. Duis eget est a nisi rutrum imperdiet. Integer ullamcorper id dui vulputate finibus. Quisque sed ultrices orci. Quisque id pretium leo, eget vestibulum justo. Cras consectetur augue velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec congue, nibh ac venenatis tincidunt, diam est gravida purus, condimentum convallis nisi risus a purus. Proin ante justo, pretium ut metus quis, commodo tempus leo. Donec elementum, elit ut feugiat dictum, lorem libero sollicitudin massa, non porttitor velit libero a nulla.
+
+Aliquam tincidunt vel eros ut pulvinar. In rutrum nulla metus, condimentum tincidunt nisl sollicitudin at. Aenean sit amet lorem id odio ullamcorper congue at eu nisi. Nunc dignissim porta ex, eget tincidunt metus suscipit ac. Vivamus sem nisi, ultricies ut blandit id, maximus sit amet elit. Vestibulum commodo mi lectus, nec tincidunt nibh eleifend non. Nam in velit lobortis augue accumsan fringilla. Nam ultrices arcu mauris, quis posuere nulla fermentum sed. Phasellus ac metus nec dolor mollis semper pretium sit amet lorem. Maecenas pellentesque ipsum eget facilisis porta. Phasellus eu mollis ligula.
+
+Mauris nec quam massa. Sed eget nisi ultricies, suscipit enim vitae, auctor augue. Donec non eros orci. Nunc tristique facilisis aliquam. Fusce id semper leo. Ut laoreet dapibus risus, et auctor lectus ornare rutrum. Proin scelerisque finibus diam, vitae lacinia felis efficitur vitae. Suspendisse dapibus nisi sit amet est mollis, vitae porta ante tincidunt.
+
+Nam tempus urna a purus efficitur facilisis. In tempus, velit vitae suscipit ultrices, lorem ex convallis tellus, vitae sollicitudin urna purus a tellus. Donec eleifend fermentum dui sed tincidunt. Ut turpis dolor, posuere a tellus sollicitudin, hendrerit pharetra justo. Aliquam feugiat dui eget magna feugiat, quis mattis leo pharetra. Vestibulum consequat lobortis diam nec volutpat. Donec malesuada congue leo efficitur egestas. Aliquam erat volutpat. Morbi sit amet faucibus sapien. Suspendisse consequat mi ante, quis eleifend erat gravida id. Sed eu nulla neque. Morbi porta molestie mollis. Sed bibendum condimentum nunc, ac ultrices ligula volutpat porttitor. Integer lorem turpis, sagittis vel congue non, condimentum a purus. Nunc pretium nec nibh nec convallis. Ut lacinia volutpat lectus, eget placerat neque dignissim quis.
+
+Nullam metus massa, dictum a pharetra vel, dignissim in mauris. In risus nulla, ornare nec diam ullamcorper, convallis sollicitudin massa. Curabitur vestibulum nisi quis aliquam interdum. Etiam consectetur non ante et posuere. Ut vitae pharetra nisl. Pellentesque eget aliquet sem. Etiam semper, eros a bibendum sagittis, est sem porta lorem, non euismod nisi turpis vel risus. Etiam consequat euismod sodales. Maecenas sed rhoncus nibh. Nulla varius, ex id pretium molestie, massa dolor dictum nisl, quis viverra felis quam et tortor. Sed vitae velit lacus. Aenean orci odio, ultrices ut nulla non, fermentum venenatis tellus. Aenean vehicula lacus et augue gravida maximus.
+
+Donec ac tristique libero, ultricies vulputate nibh. Vestibulum vel aliquam ex. Cras auctor, magna ac semper facilisis, enim lacus lacinia odio, eget pulvinar nisi odio vel lectus. Maecenas scelerisque est eget lectus semper, quis porttitor sapien aliquam. Mauris id est vitae turpis luctus tristique. Fusce molestie laoreet iaculis. Aliquam congue eget lacus vitae placerat. Morbi sed enim posuere, varius dui sed, iaculis ex. Sed sit amet sagittis lectus. Sed ultricies et sapien id ultrices. Quisque dignissim dapibus ligula. Proin efficitur sagittis interdum. Nulla tempus lorem nec sapien tempus ultricies. Curabitur eu sapien eu dolor fermentum condimentum non vel nulla.
+
+Aliquam erat volutpat. Maecenas porttitor venenatis iaculis. Donec ut dictum nibh. Donec eget massa justo. Sed quis tellus non ante gravida volutpat eu eget velit. Pellentesque suscipit pharetra diam, in viverra erat congue at. Nam et tortor maximus elit auctor iaculis. Donec magna leo, feugiat sit amet diam mollis, malesuada vehicula felis. Nunc varius purus in neque aliquet, fringilla consequat massa aliquam.</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+
